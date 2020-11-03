@@ -1,0 +1,11 @@
+Bài 1: xây dựng class hình với các 
+	properties:
+		- chiều dài
+		- chiều rộng
+	methods:
+		- chu vi
+		- diện tích
+	class hình vuông, hình tròn , hình chữ nhật kế thừa class trên
+	
+	Lấy ví dụ với só đo cụ thể
+	
