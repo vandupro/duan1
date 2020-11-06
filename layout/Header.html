@@ -19,9 +19,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+
 </head>
 
 <body>
+
     <header>
         <div class="content_1">
             <div class="content_1a">
@@ -225,15 +228,15 @@
                         </a>
                     </div>
                     <div class="eGnGQs">
-                        <div width="50%" height="181px" class="eIZlUx"><a
-                                data-view-id="home_top_banner_bottom_item" data-view-index="0"
+                        <div width="50%" height="181px" class="eIZlUx"><a data-view-id="home_top_banner_bottom_item"
+                                data-view-index="0"
                                 href="https://tiki.vn/chuong-trinh/tiki-samsung-now?src=home_v4_sub_banner.s1.b51500"
                                 aria-label=""><img width="292" height="181"
                                     src="https://salt.tikicdn.com/cache/w292/ts/banner/11/1c/4f/e5e5eecbabe9e5a6a07b1c3b7d18351f.png"
                                     srcset="https://salt.tikicdn.com/cache/w292/ts/banner/11/1c/4f/e5e5eecbabe9e5a6a07b1c3b7d18351f.png 1x, https://salt.tikicdn.com/cache/w584/ts/banner/11/1c/4f/e5e5eecbabe9e5a6a07b1c3b7d18351f.png 2x"
                                     alt=""></a></div>
-                        <div width="50%" height="181px" class="eIZlUx"><a
-                                data-view-id="home_top_banner_bottom_item" data-view-index="1"
+                        <div width="50%" height="181px" class="eIZlUx"><a data-view-id="home_top_banner_bottom_item"
+                                data-view-index="1"
                                 href="https://tiki.vn/chuong-trinh/tiki-samsung-now?src=home_v4_sub_banner.s2.b51501"
                                 aria-label=""><img width="292" height="181"
                                     src="https://salt.tikicdn.com/cache/w292/ts/banner/fc/a6/2e/3a04d99766692566de0db3b372dcb383.png"
@@ -288,6 +291,31 @@
                 </div>
             </div>
     </article>
+
+
+
+
+
+    <!-- Scroll to Top Button-->
+    <a class=" back-to-top btn-top" style="display: none;"><i class="fa fa-chevron-up"></i></a>
+    <!-- Scroll to Top Button-->
+    <script>
+       $(document).ready(function ($) {
+              $(window).scroll(function () {
+                  var e = $(window).scrollTop();
+                  if (e > 100) {
+                      $(".btn-top").show()
+                  } else {
+                      $(".btn-top").hide()
+                  }
+              });
+              $(".btn-top").click(function () {
+                  $('body,html').animate({
+                      scrollTop: 0
+                  })
+              })
+      });
+    </script>
 </body>
 
 </html>
