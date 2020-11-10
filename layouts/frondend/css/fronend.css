@@ -1,0 +1,17 @@
+/*// global variable*/
+	:root{
+		/* màu xám cho background*/
+		--background-main-color:#f5f6f7;
+		/* màu da cam chủ đạo*/
+		--yellow-main-color:#ff8e4a;
+	}
+	/* cách dùng*/
+	/*h1{
+		background-color: var(--yellow-main-color);
+	}*/
+	/*
+		note:
+		- cách đặt tên class: ten_trang-ten_class;
+			vd: detail-menu: detail là tên trang chi tiết, menu là tên class;
+		- tên class: tiếng anh, có comment cho từng phần
+	*/
