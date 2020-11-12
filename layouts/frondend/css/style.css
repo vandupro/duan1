@@ -142,7 +142,7 @@
 
 
 
-
+/* responsive */
 @media(max-width: 1200px){
     .index-header .logo img{
         width: 80%;
@@ -189,5 +189,18 @@
 }
 @media(max-width: 768px){
 
+}
+@media(max-width: 576px){
+    .header-middle{
+        width: 50%;
+    }
+
+    .index-header .flex form input{
+        width: 60%;
+        margin: 0 15px;
+    }
+    .index-header .flex form button{
+        display: none;
+    }
 }
 /* end index */
