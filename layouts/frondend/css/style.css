@@ -294,7 +294,7 @@ footer .container .list-item .item-title .item-title-desc a {
 
 /*# sourceMappingURL=style.css.map */
 
-@media(max-width: 576px) {
+/* @media(max-width: 576px) {
     .header-middle {
         width: 50%;
     }
@@ -305,7 +305,7 @@ footer .container .list-item .item-title .item-title-desc a {
     .index-header .flex form button {
         display: none;
     }
-}
+} */
 
 
 /* end index */
