@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/setting.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font/awesome/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+
+<body>
+    <div class="index-container">
+        <!-- start top -->
+        <div class="container">
+            <div class="index-top">
+                <div class="top">
+                    <i class="fas fa-check"></i>
+                    <p>Giá cả nhiều ưu đãi hấp dẫn khi mua hàng</p>
+                </div>
+                <div class="top top-middle">
+                    <i class="fas fa-plane"></i>
+                    <p>Giao hàng miễn phí toàn quốc và nhanh chóng</p>
+                </div>
+                <div class="top">
+                    <i class="fas fa-star"></i>
+                    <p>Sản phẩm đa dạng đạt tiêu chuẩn có kiểm định</p>
+                </div>
+            </div>
+        </div>
+        <!-- end top -->
+        <!-- start header -->
+        <header class="container-fluid">
+            <div class="container">
+                <div class="index-header">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="images/main-image/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="flex">
+                        <div class="header-middle">
+                            <form action="">
+                                <i class="fas fa-search"></i>
+                                <input type="text" placeholder="Tìm kiếm ở đây" required>
+                                <button>Tìm kiếm</button>
+                            </form>
+                            <div class="link">
+                                <a href="#">Bán chạy nhất</a> |
+                                <a href="#">Mua nhiều nhất</a> |
+                                <a href="#">Giảm giá</a>
+                            </div>
+                        </div>
+                        <div class="header-final">
+                            <div class="detail detail-none">
+                                <i class="fas fa-heart"></i>
+                                <a href="#">Danh sách yêu thích</a>
+                            </div>
+                            <div class="detail detail-none">
+                                <i class="fas fa-user"></i>
+                                <div>
+                                    <a href="login.html">Đăng nhập</a> <br>
+                                    <a href="register.html">Đăng ký</a>
+                                </div>
+                            </div>
+                            <div class="detail btn">
+                                <i class="fas fa-shopping-bag"></i>
+                                <a href="cart.html">GIỎ HÀNG(0)</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end header -->
+    </div>
+    <div class="container login">
+        <div class="cate" href="#">
+            <a href="">
+                <i class="fas fa-bars"></i>
+                DANH MỤC
+                <nav class="list">
+                    <ul>
+                        <li>
+                            <img src="images/icon/i_menu_1.png" alt="">
+                            <a href="#">Rau củ</a>
+                        </li>
+                        <li>
+                            <img src="images/icon/i_menu_2.png" alt="">
+                            <a href="#">hải sản</a>
+                        </li>
+                        <li>
+                            <img src="images/icon/i_menu_3.png" alt="">
+                            <a href="#">Hoa quả trong nước</a>
+                        </li>
+                        <li>
+                            <img src="images/icon/i_menu_4.png" alt="">
+                            <a href="#">Hoa quả nhập khẩu</a>
+                        </li>
+                        <li>
+                            <img src="images/icon/i_menu_5.png" alt="">
+                            <a href="#">Hoa quả sấy</a>
+                        </li>
+                        <li>
+                            <img src="images/icon/i_menu_6.png" alt="">
+                            <a href="#">Thịt các loại</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- <a class="login-user" href=""></a> -->
+                <i class="fas fa-user"></i>
+            </a>
+        </div>
+        <nav class="bread">
+            <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
+            <i class="fas fa-caret-right cl-control"></i>
+            <li class="breadcrumb-item active cl-control" aria-current="page"> Thông tin khách hàng</li>
+        </nav>
+    </div>
+    <div class="container-fluild address-detail">
+        <div class="container">
+            <h4> THÔNG TIN KHÁCH HÀNG</h4>
+            <p>Vui lòng nhập thông tin</p>
+            <form action="">
+                <table>
+                    <tr>
+                        <th>Họ tên</th>
+                        <td>
+                            <input class="form-control" type="text" placeholder="Nhập họ tên" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Điện thoại di động</th>
+                        <td>
+                            <input class="form-control" type="text" placeholder="Nhập số điện thoại" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Tỉnh/thành phố</th>
+                        <td>
+                            <select class="form-control" name="" id="">
+                                <option value="">Chọn tỉnh/thành phố</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th> Quận/huyện</th>
+                        <td>
+                            <select name="" class="form-control" id="">
+                                <option value="">Chọn quận/huyện</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Địa chỉ</th>
+                        <td>
+                            <textarea class="form-control" name="" id="" cols="30" rows="5" required placeholder="Nhập địa chỉ"></textarea>
+                        </td>
+                    </tr>
+                </table>
+                <div class="control-center">
+                    <button class="btn btn-warning">Hủy bỏ</button>
+                    <button class="btn btn-success">Giao đến địa chỉ này</button>
+                </div>   
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

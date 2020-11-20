@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>trang chủ</title>
+    <title>Document</title>
     <link rel="stylesheet" href="css/setting.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -62,13 +62,13 @@
                             <div class="detail detail-none">
                                 <i class="fas fa-user"></i>
                                 <div>
-                                    <a href="login.html">Đăng nhập</a> <br>
-                                    <a href="register.html">Đăng ký</a>
+                                    <a href="#">Đăng nhập</a> <br>
+                                    <a href="#">Đăng ký</a>
                                 </div>
                             </div>
                             <div class="detail btn">
                                 <i class="fas fa-shopping-bag"></i>
-                                <a href="cart.html">GIỎ HÀNG(0)</a>
+                                <a href="#">GIỎ HÀNG(0)</a>
                             </div>
                         </div>
                     </div>
@@ -77,62 +77,75 @@
         </header>
         <!-- end header -->
     </div>
-
-    <!-- bắt đầu footer -->
-    <footer>
-        <div class="container ">
-            <div class="title_header d-flex">
-                <h2>Mẹo hay sử dụng</h2>
-                <span>
-                    <a href="" class="">Xem thêm <i class="fas fa-caret-right"></i></a>
-                </span>
-            </div>
-
-            <div class="list-item d-flex">
-                <div class="item d-flex">
-                    <img class="item_img" src="images/bi-quyet-chon-mua-trai-cay-khong-co-hoa-chat-bao-quan-5.jpg" alt="">
-                    <div class="item-title flex-column">
-                        <h3 class="item-title-desc">
-                            <a href="">Những loại trái cây Nhật đắt như vàng ròng đổ bộ về Việt Nam</a>
-                        </h3>
-                        <p>Nhật Bản là đất nước có nhiều loại hoa quả có chất lượng thuộc hàng ngon nhất thế giới</p>
-
-                    </div>
-                </div>
-                <div class="item d-flex">
-                    <img class="item_img" src="images/fruits-buyers-russia.jpg" alt="">
-                    <div class="item-title flex-column">
-                        <h3 class="item-title-desc">
-                            <a href="">Bí quyết bảo quản nho đen trong tủ lạnh tươi lâu hơn</a>
-                        </h3>
-                        <p>Bí quyết lựa chọn và bảo quản nho tươi – Nho rất ngon và tốt cho sức khỏe, t</p>
-
-                    </div>
-                </div>
-                <div class="item d-flex">
-                    <img class="item_img" src="images/fruits-buyers-russia.jpg" alt="">
-                    <div class="item-title flex-column">
-                        <h3 class="item-title-desc">
-                            <a href="">Những loại trái cây Nhật đắt như vàng ròng đổ bộ về Việt Nam</a>
-                        </h3>
-                        <p>Nhật Bản là đất nước có nhiều loại hoa quả có chất lượng thuộc hàng ngon nhất thế giới</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="list-top d-flex">
-                <div class="top-item">
-
-
-                </div>
-
-            </div>
-
+    <div class="container login">
+        <div class="cate" href="#">
+            <a href="">
+                <i class="fas fa-bars"></i>
+                DANH MỤC
+                <nav class="list">
+                    <ul>
+                        <li>
+                            <img src="images/icon/i_menu_1.png" alt="">
+                            <a href="#">Rau củ</a>
+                        </li>
+                        <li>
+                            <img src="images/icon/i_menu_2.png" alt="">
+                            <a href="#">hải sản</a>
+                        </li>
+                        <li>
+                            <img src="images/icon/i_menu_3.png" alt="">
+                            <a href="#">Hoa quả trong nước</a>
+                        </li>
+                        <li>
+                            <img src="images/icon/i_menu_4.png" alt="">
+                            <a href="#">Hoa quả nhập khẩu</a>
+                        </li>
+                        <li>
+                            <img src="images/icon/i_menu_5.png" alt="">
+                            <a href="#">Hoa quả sấy</a>
+                        </li>
+                        <li>
+                            <img src="images/icon/i_menu_6.png" alt="">
+                            <a href="#">Thịt các loại</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- <a class="login-user" href=""></a> -->
+                <i class="fas fa-user"></i>
+            </a>
         </div>
-    </footer>
-    <!-- kết thúc footer -->
+        <nav class="bread">
+            <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+            <i class="fas fa-caret-right cl-control"></i>
+            <li class="breadcrumb-item active cl-control" aria-current="page"> Cập nhật tài khoản</li>
+        </nav>
+    </div>
+    <div class="container-fluild update-detail">
+        <div class="container">
+            <h4>CẬP NHẬT TÀI KHOẢN</h4>
+            <p>Vui lòng nhập lại thông tin</p>
+            <form action="" class="form-group">
+                <div class="form-group">
+                    <label for="email">Họ tên *</label>
+                    <input type="email" class="form-control" id="email" required placeholder="Họ tên" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" class="form-control" id="email" required placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Xác nhận email</label> *</label>
+                    <input type="email" class="form-control" id="email" required placeholder=" Xác nhận email" required>
+                </div>
+                
+                <div class="form-group">
+                    <button class="btn btn-primary">Cập nhật</button>
+                    <a class="btn btn-info" href="">Đăng nhập</a>
+                </div>
+            </form>
+        </div>
 
-
+    </div>
 </body>
 
 </html>
