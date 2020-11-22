@@ -524,4 +524,10 @@ footer .container .list-item .item-title .item-title-desc a {
     .cart-detail table td input{
         width: 150px;
     }
+
+    @media(max-width: 992px){
+        .cart-detail{
+            margin-top: 60px;
+        }
+    }
 /* end cart */
