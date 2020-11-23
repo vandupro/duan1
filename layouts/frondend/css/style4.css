@@ -290,8 +290,12 @@ product-info {
   line-height: 39px;
   font-weight: 400;
   position: absolute;
-  top: -60px;
+  top: -80px;
   right: 0;
+}
+.owl-next span:hover,
+.owl-prev span:hover {
+ color: var(--yellow-main-color);
 }
 .owl-prev span {
   right: 20px;
