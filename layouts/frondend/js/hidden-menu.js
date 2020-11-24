@@ -17,9 +17,9 @@ $('#menu-icon').click(function(){
   $('#list').toggle(500); 
 });
 $('#fa-user').click(function(){
-  $('#acount').toggle(500); 
+  $('#acount').toggle(500);
 });
-$('#cate2').click(function(){
+$('#cate-menu').click(function(){
   $('#show_menu_cate').toggle(500);
   // alert('aadhkf');
 });

@@ -20,8 +20,7 @@
 }
 #cate > a > span,
 #cate > a > i,
-#menu > .show2 > li > a,#cate2 > p > span,
-#cate2 > p > i {
+#menu > .show2 > li > a{
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 700;
@@ -31,8 +30,18 @@
   text-decoration: none;
   padding: 0 15px;
 }
+#cate2 > p > span,
+#cate2 > p > i {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  line-height: 54px;
+  text-decoration: none;
+  padding: 0 15px;
+}
 .hiden{
-    display: none !important;
+    display: none;
 }
 #cate > a > span,
 #cate > a:hover,
@@ -382,13 +391,14 @@ product-info {
 
 }
 @media(max-width:992px){
+  
     .hiden-none-menu,.show2-product,.dm-none{
         display: none;
     }
     .hiden-none-menu{
       display: none;
     }
-    .cate2{
+    .cate2,.hiden{
       display: block;
     }
     
