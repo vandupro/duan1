@@ -5,3 +5,7 @@ $('#x').click(function(){
 $('#z').click(function(){
 	$('#k').toggle(500);
 });
+
+$('#main-control').click(function(){
+	$('#none-menu').toggle(500);
+});
