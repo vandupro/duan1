@@ -292,6 +292,7 @@ product-info {
   position: absolute;
   top: -80px;
   right: 0;
+  color: var(--background-main-color2);
 }
 .owl-next span:hover,
 .owl-prev span:hover {
@@ -300,23 +301,30 @@ product-info {
 .owl-prev span {
   right: 20px;
 }
+.content_product_relative{
+  position: relative;
+  z-index: 7;
+}
 /* do dong lanh */
 .content-buttom {
   width: 100%;
-  position: relative;
   margin-top: 5%;
 }
 
 .img {
     position: absolute;
-    bottom: 0px;
-    z-index: 0;
     width: 100%;
+    margin-top: 90px;
   }
 
-.img > .flex {
+.flex {
   display: flex;
   justify-content: space-between;
+  z-index: 4;
+
+}
+.img{
+  margin-bottom: 0px;
 }
 @media(max-width:576px){
     #background{
