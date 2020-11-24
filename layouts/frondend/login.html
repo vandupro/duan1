@@ -79,10 +79,14 @@
     </div>
     <div class="container login">
         <div class="cate" href="#">
-            <a href="">
-                <i class="fas fa-bars"></i>
-                DANH MỤC
-                <nav class="list">
+                <div id="x" class="menu-icon">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="menu-control">
+                    <i class="fas fa-bars"></i>
+                    DANH MỤC
+                </div>
+                <nav id="y" class="list">
                     <ul>
                         <li>
                             <img src="images/icon/i_menu_1.png" alt="">
@@ -111,8 +115,13 @@
                     </ul>
                 </nav>
                 <!-- <a class="login-user" href=""></a> -->
-                <i class="fas fa-user"></i>
-            </a>
+                <i id="z" class="fas fa-user"></i>
+                <div id="k" class="acount">
+                    <ul>
+                        <li><a href="login.html">Đăng nhập</a></li>
+                        <li><a href="">Đăng xuất</a></li>
+                    </ul>
+                </div>
         </div>
         <nav class="bread">
             <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
@@ -157,6 +166,8 @@
         </div>
 
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/js-menu.js"></script>
 </body>
 
 </html>
